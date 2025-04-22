@@ -20,6 +20,11 @@
             bindings = <&bt BT_CLR>;
             key-positions = <34 42>;
         };
+
+        reset_size {
+            bindings = <&kp LG(NUMBER_0)>;
+            key-positions = <15 27>;
+        };
     };
 
     macros {
