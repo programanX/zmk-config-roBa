@@ -23,12 +23,17 @@
 
         reset_size {
             bindings = <&kp LG(NUMBER_0)>;
-            key-positions = <15 27>;
+            key-positions = <16 28>;
         };
 
         Layer_6 {
             bindings = <&mo 6>;
             key-positions = <34 35 36>;
+        };
+
+        Cut {
+            bindings = <&kp LC(X)>;
+            key-positions = <15 27>;
         };
     };
 
