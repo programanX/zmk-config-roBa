@@ -32,7 +32,7 @@
         };
 
         Cut {
-            bindings = <&kp LC(X)>;
+            bindings = <&kp LG(X)>;
             key-positions = <15 27>;
         };
     };
