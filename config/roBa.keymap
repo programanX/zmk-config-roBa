@@ -82,10 +82,10 @@
 
         NUM {
             bindings = <
-&kp SLASH     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS                                &trans  &trans              &trans              &trans               &trans
-&kp ASTERISK  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS   &kp LG(NUMBER_0)      &trans  &trans  &kp LC(LEFT_ARROW)  &kp LC(UP_ARROW)    &kp LC(RIGHT_ARROW)  &trans
-&kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL  &kp C_MUTE            &trans  &trans  &trans              &kp LC(DOWN_ARROW)  &trans               &trans
-&trans        &trans        &trans        &trans        &trans     &trans                &trans  &trans                                                               &trans
+&kp SLASH     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS                                              &trans  &trans              &trans              &trans               &trans
+&kp ASTERISK  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS   &kp LG(NUMBER_0)      &kp C_BRIGHTNESS_INC  &trans  &kp LC(LEFT_ARROW)  &kp LC(UP_ARROW)    &kp LC(RIGHT_ARROW)  &trans
+&kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL  &kp C_MUTE            &kp C_BRIGHTNESS_DEC  &trans  &trans              &kp LC(DOWN_ARROW)  &trans               &trans
+&trans        &trans        &trans        &trans        &trans     &trans                &trans                &trans                                                               &trans
             >;
         };
 
@@ -124,6 +124,15 @@
 &trans  &trans  &trans  &trans  &trans  &trans      &sys_reset   &trans        &trans        &trans        &trans        &bt BT_CLR
 &trans  &trans  &trans  &trans  &trans  &trans      &bootloader  &trans        &trans        &trans        &trans        &bt BT_CLR_ALL
 &trans  &trans  &trans  &trans  &trans  &trans      &trans       &trans                                                  &studio_unlock
+            >;
+        };
+
+        layer_7 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
         };
     };
